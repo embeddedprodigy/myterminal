@@ -60,7 +60,6 @@ export BAT_THEME=gruvbox-dark
 # 1 - sudo pacman -S eza
 # 2 - paste the command added below
 # 3 - for directory(tree) command use eza --tree --level=<num>
-# 4 -  
 alias lse="eza --color=always --icons=always --git --long"
 
 # zoxide config, https://github.com/ajeetdsouza/zoxide
@@ -77,5 +76,4 @@ alias mant="tldr"
 
 # thefuck config, https://github.com/nvbn/thefuck
 eval $(thefuck --alias)
-# You can use whatever you want as an alias, like for Mondays:
-eval $(thefuck --alias fuck)
+eval $(thefuck --alias fuck) # You can use whatever you want as an alias, like for Mondays:
